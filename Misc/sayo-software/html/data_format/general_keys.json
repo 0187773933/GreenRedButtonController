@@ -1,0 +1,1443 @@
+{
+    "version": "2.0",
+    "text": "general keys",
+    "type": "single_choice",
+    "default": 0,
+    "data": [
+        {
+            "_text": "QWERTY",
+            "member": [
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 950,
+                    "site_y": 950,
+                    "code": 41,
+                    "_text":"ESC"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 4760,
+                    "site_y": 950,
+                    "code": 58,
+                    "_text":"F1"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 6665,
+                    "site_y": 950,
+                    "code": 59,
+                    "_text":"F2"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 8570,
+                    "site_y": 950,
+                    "code": 60,
+                    "_text":"F3"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 10475,
+                    "site_y": 950,
+                    "code": 61,
+                    "_text":"F4"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 13333,
+                    "site_y": 950,
+                    "code": 62,
+                    "_text":"F5"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 15238,
+                    "site_y": 950,
+                    "code": 63,
+                    "_text":"F6"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 17143,
+                    "site_y": 950,
+                    "code": 64,
+                    "_text":"F7"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 19048,
+                    "site_y": 950,
+                    "code": 65,
+                    "_text":"F8"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 21905,
+                    "site_y": 950,
+                    "code": 66,
+                    "_text":"F9"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 23810,
+                    "site_y": 950,
+                    "code": 67,
+                    "_text":"F10"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 25715,
+                    "site_y": 950,
+                    "code": 68,
+                    "_text":"F11"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 27620,
+                    "site_y": 950,
+                    "code": 69,
+                    "_text":"F12"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 30001,
+                    "site_y": 950,
+                    "code": 70,
+                    "_text":"PS"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 31906,
+                    "site_y": 950,
+                    "code": 71,
+                    "_text":"SL"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 33811,
+                    "site_y": 950,
+                    "code": 72,
+                    "_text":"Pause"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 950,
+                    "site_y": 3808,
+                    "code": 53,
+                    "content": [
+                        "~",
+                        "`"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 2855,
+                    "site_y": 3808,
+                    "code": 30,
+                    "content": [
+                        "!",
+                        "1"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 4760,
+                    "site_y": 3808,
+                    "code": 31,
+                    "content": [
+                        "@",
+                        "2"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 6665,
+                    "site_y": 3808,
+                    "code": 32,
+                    "content": [
+                        "#",
+                        "3"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 8570,
+                    "site_y": 3808,
+                    "code": 33,
+                    "content": [
+                        "$",
+                        "4"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 10475,
+                    "site_y": 3808,
+                    "code": 34,
+                    "content": [
+                        "%",
+                        "5"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 12380,
+                    "site_y": 3808,
+                    "code": 35,
+                    "content": [
+                        "^",
+                        "6"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 14285,
+                    "site_y": 3808,
+                    "code": 36,
+                    "content": [
+                        "&",
+                        "7"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 16190,
+                    "site_y": 3808,
+                    "code": 37,
+                    "content": [
+                        "*",
+                        "8"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 18095,
+                    "site_y": 3808,
+                    "code": 38,
+                    "content": [
+                        "(",
+                        "9"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 20000,
+                    "site_y": 3808,
+                    "code": 39,
+                    "content": [
+                        ")",
+                        "0"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 21905,
+                    "site_y": 3808,
+                    "code": 45,
+                    "content": [
+                        "-",
+                        "_"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 23810,
+                    "site_y": 3808,
+                    "code": 46,
+                    "content": [
+                        "=",
+                        "+"
+                    ]
+                },
+                {
+                    "size_x": 3700,
+                    "size_y": 1800,
+                    "site_x": 26668,
+                    "site_y": 3808,
+                    "code": 42,
+                    "_text":"Backspace"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 30001,
+                    "site_y": 3808,
+                    "code": 73,
+                    "_text":"Insert"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 31906,
+                    "site_y": 3808,
+                    "code": 74,
+                    "_text":"Home"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 33811,
+                    "site_y": 3808,
+                    "code": 75,
+                    "_text":"PageUp"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 36192,
+                    "site_y": 3808,
+                    "code": 83,
+                    "_text":"NumLock"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 38097,
+                    "site_y": 3808,
+                    "code": 84,
+                    "_text":"/"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 40002,
+                    "site_y": 3808,
+                    "code": 85,
+                    "_text":"*"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 41907,
+                    "site_y": 3808,
+                    "code": 86,
+                    "_text":"-"
+                },
+                {
+                    "size_x": 2750,
+                    "size_y": 1800,
+                    "site_x": 1426,
+                    "site_y": 5713,
+                    "code": 43,
+                    "_text":"TAB"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 3808,
+                    "site_y": 5713,
+                    "code": 20,
+                    "_text":"Q"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 5713,
+                    "site_y": 5713,
+                    "code": 26,
+                    "_text":"W"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 7618,
+                    "site_y": 5713,
+                    "code": 8,
+                    "_text":"E"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 9523,
+                    "site_y": 5713,
+                    "code": 21,
+                    "_text":"R"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 11428,
+                    "site_y": 5713,
+                    "code": 23,
+                    "_text":"T"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 13333,
+                    "site_y": 5713,
+                    "code": 28,
+                    "_text":"Y"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 15238,
+                    "site_y": 5713,
+                    "code": 24,
+                    "_text":"U"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 17143,
+                    "site_y": 5713,
+                    "code": 12,
+                    "_text":"I"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 19048,
+                    "site_y": 5713,
+                    "code": 18,
+                    "_text":"O"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 20953,
+                    "site_y": 5713,
+                    "code": 19,
+                    "_text":"P"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 22858,
+                    "site_y": 5713,
+                    "code": 47,
+                    "content": [
+                        "{",
+                        "["
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 24763,
+                    "site_y": 5713,
+                    "code": 48,
+                    "content": [
+                        "}",
+                        "]"
+                    ]
+                },
+                {
+                    "size_x": 2750,
+                    "size_y": 1800,
+                    "site_x": 27144,
+                    "site_y": 5713,
+                    "code": 49,
+                    "content": [
+                        "|",
+                        "\\"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 30001,
+                    "site_y": 5713,
+                    "code": 76,
+                    "_text":"Delte"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 31906,
+                    "site_y": 5713,
+                    "code": 77,
+                    "_text":"End"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 33811,
+                    "site_y": 5713,
+                    "code": 78,
+                    "_text":"PageDown"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 36192,
+                    "site_y": 5713,
+                    "code": 95,
+                    "_text":"7"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 38097,
+                    "site_y": 5713,
+                    "code": 96,
+                    "_text":"8"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 40002,
+                    "site_y": 5713,
+                    "code": 97,
+                    "_text":"9"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 3700,
+                    "site_x": 41907,
+                    "site_y": 6665,
+                    "code": 87,
+                    "_text":"+"
+                },
+                {
+                    "size_x": 3225,
+                    "size_y": 1800,
+                    "site_x": 1664,
+                    "site_y": 7618,
+                    "code": 57,
+                    "_text":"CapsLock"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 4284,
+                    "site_y": 7618,
+                    "code": 4,
+                    "_text":"A"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 6189,
+                    "site_y": 7618,
+                    "code": 22,
+                    "_text":"S"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 8094,
+                    "site_y": 7618,
+                    "code": 7,
+                    "_text":"D"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 9999,
+                    "site_y": 7618,
+                    "code": 9,
+                    "_text":"F"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 11904,
+                    "site_y": 7618,
+                    "code": 10,
+                    "_text":"G"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 13809,
+                    "site_y": 7618,
+                    "code": 11,
+                    "_text":"H"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 15714,
+                    "site_y": 7618,
+                    "code": 13,
+                    "_text":"J"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 17619,
+                    "site_y": 7618,
+                    "code": 14,
+                    "_text":"K"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 19524,
+                    "site_y": 7618,
+                    "code": 15,
+                    "_text":"L"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 21429,
+                    "site_y": 7618,
+                    "code": 51,
+                    "content": [
+                        ":",
+                        ";"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 23334,
+                    "site_y": 7618,
+                    "code": 52,
+                    "content": [
+                        "\"",
+                        "'"
+                    ]
+                },
+                {
+                    "size_x": 4175,
+                    "size_y": 1800,
+                    "site_x": 26429,
+                    "site_y": 7618,
+                    "code": 40,
+                    "_text":"Enter"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 36192,
+                    "site_y": 7618,
+                    "code": 92,
+                    "_text":"4"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 38097,
+                    "site_y": 7618,
+                    "code": 93,
+                    "_text":"5"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 40002,
+                    "site_y": 7618,
+                    "code": 94,
+                    "_text":"6"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 5236,
+                    "site_y": 9523,
+                    "code": 29,
+                    "_text":"Z"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 7141,
+                    "site_y": 9523,
+                    "code": 27,
+                    "_text":"X"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 9046,
+                    "site_y": 9523,
+                    "code": 6,
+                    "_text":"C"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 10951,
+                    "site_y": 9523,
+                    "code": 25,
+                    "_text":"V"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 12856,
+                    "site_y": 9523,
+                    "code": 5,
+                    "_text":"B"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 14761,
+                    "site_y": 9523,
+                    "code": 17,
+                    "_text":"N"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 16666,
+                    "site_y": 9523,
+                    "code": 16,
+                    "_text":"M"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 18571,
+                    "site_y": 9523,
+                    "code": 54,
+                    "content": [
+                        "<",
+                        ","
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 20476,
+                    "site_y": 9523,
+                    "code": 55,
+                    "content": [
+                        ">",
+                        "."
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 22381,
+                    "site_y": 9523,
+                    "code": 56,
+                    "content": [
+                        "?",
+                        "/"
+                    ]
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 31906,
+                    "site_y": 9523,
+                    "code": 82,
+                    "_text":"↑"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 36192,
+                    "site_y": 9523,
+                    "code": 89,
+                    "_text":"1"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 38097,
+                    "site_y": 9523,
+                    "code": 90,
+                    "_text":"2"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 40002,
+                    "site_y": 9523,
+                    "code": 91,
+                    "_text":"3"
+                },
+                {
+                    "size_x": 11776,
+                    "size_y": 1800,
+                    "site_x": 13094,
+                    "site_y": 11428,
+                    "code": 44,
+                    "_text":"SpaceBar(空格)"
+                },
+                {
+                    "size_x": 2275,
+                    "size_y": 1800,
+                    "site_x": 22619,
+                    "site_y": 11428,
+                    "code": 101,
+                    "_text":"MENU"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 30001,
+                    "site_y": 11428,
+                    "code": 80,
+                    "_text":"←"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 31906,
+                    "site_y": 11428,
+                    "code": 81,
+                    "_text":"↓"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 33811,
+                    "site_y": 11428,
+                    "code": 79,
+                    "_text":"→"
+                },
+                {
+                    "size_x": 3700,
+                    "size_y": 1800,
+                    "site_x": 37145,
+                    "site_y": 11428,
+                    "code": 98,
+                    "_text":"0"
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 1800,
+                    "site_x": 40002,
+                    "site_y": 11428,
+                    "code": 99,
+                    "_text":"."
+                },
+                {
+                    "size_x": 1800,
+                    "size_y": 3700,
+                    "site_x": 41907,
+                    "site_y": 10475,
+                    "code": 88,
+                    "_text":"EnterN"
+                }
+            ]
+        },
+        {
+            "_text": "Windows Other",
+            "member": [
+                {
+                    "code": 104,
+                    "_text":"F13"
+                },
+                {
+                    "code": 105,
+                    "_text":"F14"
+                },
+                {
+                    "code": 106,
+                    "_text":"F15"
+                },
+                {
+                    "code": 107,
+                    "_text":"F16"
+                },
+                {
+                    "code": 108,
+                    "_text":"F17"
+                },
+                {
+                    "code": 109,
+                    "_text":"F18"
+                },
+                {
+                    "code": 110,
+                    "_text":"F19"
+                },
+                {
+                    "code": 111,
+                    "_text":"F20"
+                },
+                {
+                    "code": 112,
+                    "_text":"F21"
+                },
+                {
+                    "code": 113,
+                    "_text":"F22"
+                },
+                {
+                    "code": 114,
+                    "_text":"F23"
+                },
+                {
+                    "code": 115,
+                    "_text":"F24"
+                },
+                {
+                    "code": 50,
+                    "_text":"Non-US#and~"
+                },
+                {
+                    "code": 100,
+                    "_text":"Non-US\\and|"
+                },
+                {
+                    "code": 103,
+                    "_text":"="
+                },
+                {
+                    "code": 133,
+                    "_text":"Comma"
+                },
+                {
+                    "code": 135,
+                    "_text":"International1"
+                },
+                {
+                    "code": 139,
+                    "_text":"International5"
+                },
+                {
+                    "code": 140,
+                    "_text":"International6"
+                },
+                {
+                    "code": 145,
+                    "_text":"LANG2"
+                },
+                {
+                    "code": 148,
+                    "_text":"LANG5"
+                },
+                {
+                    "code": 224,
+                    "_text":"LeftControl"
+                },
+                {
+                    "code": 225,
+                    "_text":"LeftShift"
+                },
+                {
+                    "code": 226,
+                    "_text":"LeftAlt"
+                },
+                {
+                    "code": 227,
+                    "_text":"LeftGUI"
+                },
+                {
+                    "code": 228,
+                    "_text":"RightControl"
+                },
+                {
+                    "code": 229,
+                    "_text":"RightShift"
+                },
+                {
+                    "code": 230,
+                    "_text":"RightAlt"
+                },
+                {
+                    "code": 231,
+                    "_text":"RightGUI"
+                }
+            ]
+        },
+        {
+            "_text":"Linux/MacOs Other",
+            "member":[
+                {
+                    "code": 104,
+                    "_text":"F13"
+                },
+                {
+                    "code": 105,
+                    "_text":"F14"
+                },
+                {
+                    "code": 106,
+                    "_text":"F15"
+                },
+                {
+                    "code": 107,
+                    "_text":"F16"
+                },
+                {
+                    "code": 108,
+                    "_text":"F17"
+                },
+                {
+                    "code": 109,
+                    "_text":"F18"
+                },
+                {
+                    "code": 110,
+                    "_text":"F19"
+                },
+                {
+                    "code": 111,
+                    "_text":"F20"
+                },
+                {
+                    "code": 112,
+                    "_text":"F21"
+                },
+                {
+                    "code": 113,
+                    "_text":"F22"
+                },
+                {
+                    "code": 114,
+                    "_text":"F23"
+                },
+                {
+                    "code": 115,
+                    "_text":"F24"
+                },
+                {
+                    "code": 50,
+                    "_text":"Non-US#and~"
+                },
+                {
+                    "code": 100,
+                    "_text":"Non-US\\and|"
+                },
+                {
+                    "code": 103,
+                    "_text":"="
+                },
+                {
+                    "code": 102,
+                    "_text":"Power"
+                },
+                {
+                    "code": 116,
+                    "_text":"Execute"
+                },
+                {
+                    "code": 117,
+                    "_text":"Help"
+                },
+                {
+                    "code": 118,
+                    "_text":"Menu"
+                },
+                {
+                    "code": 119,
+                    "_text":"Select"
+                },
+                {
+                    "code": 120,
+                    "_text":"Stop"
+                },
+                {
+                    "code": 121,
+                    "_text":"Again"
+                },
+                {
+                    "code": 122,
+                    "_text":"Undo"
+                },
+                {
+                    "code": 123,
+                    "_text":"Cut"
+                },
+                {
+                    "code": 124,
+                    "_text":"Copy"
+                },
+                {
+                    "code": 125,
+                    "_text":"Paste"
+                },
+                {
+                    "code": 126,
+                    "_text":"Find"
+                },
+                {
+                    "code": 127,
+                    "_text":"Mute"
+                },
+                {
+                    "code": 128,
+                    "_text":"VolumeUp"
+                },
+                {
+                    "code": 129,
+                    "_text":"VolumeDown"
+                },
+                {
+                    "code": 130,
+                    "_text":"LockingCaps"
+                },
+                {
+                    "code": 131,
+                    "_text":"LockingNum"
+                },
+                {
+                    "code": 132,
+                    "_text":"LockingScroll"
+                },
+                {
+                    "code": 133,
+                    "_text":"Comma"
+                },
+                {
+                    "code": 134,
+                    "_text":"EqualSign"
+                },
+                {
+                    "code": 135,
+                    "_text":"International1"
+                },
+                {
+                    "code": 136,
+                    "_text":"International2"
+                },
+                {
+                    "code": 137,
+                    "_text":"International3"
+                },
+                {
+                    "code": 138,
+                    "_text":"International4"
+                },
+                {
+                    "code": 139,
+                    "_text":"International5"
+                },
+                {
+                    "code": 140,
+                    "_text":"International6"
+                },
+                {
+                    "code": 141,
+                    "_text":"International7"
+                },
+                {
+                    "code": 142,
+                    "_text":"International8"
+                },
+                {
+                    "code": 143,
+                    "_text":"International9"
+                },
+                {
+                    "code": 144,
+                    "_text":"LANG1"
+                },
+                {
+                    "code": 145,
+                    "_text":"LANG2"
+                },
+                {
+                    "code": 146,
+                    "_text":"LANG3"
+                },
+                {
+                    "code": 147,
+                    "_text":"LANG4"
+                },
+                {
+                    "code": 148,
+                    "_text":"LANG5"
+                },
+                {
+                    "code": 149,
+                    "_text":"LANG6"
+                },
+                {
+                    "code": 150,
+                    "_text":"LANG7"
+                },
+                {
+                    "code": 151,
+                    "_text":"LANG8"
+                },
+                {
+                    "code": 152,
+                    "_text":"LANG9"
+                },
+                {
+                    "code": 153,
+                    "_text":"AlternateErase"
+                },
+                {
+                    "code": 154,
+                    "_text":"SysReq/Attention"
+                },
+                {
+                    "code": 155,
+                    "_text":"Cancel"
+                },
+                {
+                    "code": 156,
+                    "_text":"Clear"
+                },
+                {
+                    "code": 157,
+                    "_text":"Prior"
+                },
+                {
+                    "code": 158,
+                    "_text":"Return"
+                },
+                {
+                    "code": 159,
+                    "_text":"Separator"
+                },
+                {
+                    "code": 160,
+                    "_text":"Out"
+                },
+                {
+                    "code": 161,
+                    "_text":"Oper"
+                },
+                {
+                    "code": 162,
+                    "_text":"Clear/Again"
+                },
+                {
+                    "code": 163,
+                    "_text":"CrSel/Props"
+                },
+                {
+                    "code": 164,
+                    "_text":"ExSel"
+                },
+                {
+                    "code": 176,
+                    "_text":"00"
+                },
+                {
+                    "code": 177,
+                    "_text":"000"
+                },
+                {
+                    "code": 178,
+                    "_text":"ThousandsSeparator"
+                },
+                {
+                    "code": 179,
+                    "_text":"DecimalSeparator"
+                },
+                {
+                    "code": 180,
+                    "_text":"CurrencyUnit"
+                },
+                {
+                    "code": 181,
+                    "_text":"CurrencySub-unit"
+                },
+                {
+                    "code": 182,
+                    "_text":"("
+                },
+                {
+                    "code": 183,
+                    "_text":")"
+                },
+                {
+                    "code": 184,
+                    "_text":"{"
+                },
+                {
+                    "code": 185,
+                    "_text":"}"
+                },
+                {
+                    "code": 186,
+                    "_text":"Tab"
+                },
+                {
+                    "code": 187,
+                    "_text":"Backspace"
+                },
+                {
+                    "code": 188,
+                    "_text":"A"
+                },
+                {
+                    "code": 189,
+                    "_text":"B"
+                },
+                {
+                    "code": 190,
+                    "_text":"C"
+                },
+                {
+                    "code": 191,
+                    "_text":"D"
+                },
+                {
+                    "code": 192,
+                    "_text":"E"
+                },
+                {
+                    "code": 193,
+                    "_text":"F"
+                },
+                {
+                    "code": 194,
+                    "_text":"XOR"
+                },
+                {
+                    "code": 195,
+                    "_text":"^"
+                },
+                {
+                    "code": 196,
+                    "_text":"%"
+                },
+                {
+                    "code": 197,
+                    "_text":"<"
+                },
+                {
+                    "code": 198,
+                    "_text":">"
+                },
+                {
+                    "code": 199,
+                    "_text":"&"
+                },
+                {
+                    "code": 200,
+                    "_text":"&&"
+                },
+                {
+                    "code": 201,
+                    "_text":"|"
+                },
+                {
+                    "code": 202,
+                    "_text":"||"
+                },
+                {
+                    "code": 203,
+                    "_text":":"
+                },
+                {
+                    "code": 204,
+                    "_text":"#"
+                },
+                {
+                    "code": 205,
+                    "_text":"Space"
+                },
+                {
+                    "code": 206,
+                    "_text":"@"
+                },
+                {
+                    "code": 207,
+                    "_text":"!"
+                },
+                {
+                    "code": 208,
+                    "_text":"MemoryStore"
+                },
+                {
+                    "code": 209,
+                    "_text":"MemoryRecall"
+                },
+                {
+                    "code": 210,
+                    "_text":"MemoryClear"
+                },
+                {
+                    "code": 211,
+                    "_text":"MemoryAdd"
+                },
+                {
+                    "code": 212,
+                    "_text":"MemorySubtract"
+                },
+                {
+                    "code": 213,
+                    "_text":"MemoryMultiply"
+                },
+                {
+                    "code": 214,
+                    "_text":"MemoryDivide"
+                },
+                {
+                    "code": 215,
+                    "_text":"+/-"
+                },
+                {
+                    "code": 216,
+                    "_text":"Clear"
+                },
+                {
+                    "code": 217,
+                    "_text":"ClearEntry"
+                },
+                {
+                    "code": 219,
+                    "_text":"Octal"
+                },
+                {
+                    "code": 220,
+                    "_text":"Decimal"
+                },
+                {
+                    "code": 221,
+                    "_text":"Hexadecimal"
+                },
+                {
+                    "code": 224,
+                    "_text":"LeftControl"
+                },
+                {
+                    "code": 225,
+                    "_text":"LeftShift"
+                },
+                {
+                    "code": 226,
+                    "_text":"LeftAlt"
+                },
+                {
+                    "code": 227,
+                    "_text":"LeftGUI"
+                },
+                {
+                    "code": 228,
+                    "_text":"RightControl"
+                },
+                {
+                    "code": 229,
+                    "_text":"RightShift"
+                },
+                {
+                    "code": 230,
+                    "_text":"RightAlt"
+                },
+                {
+                    "code": 231,
+                    "_text":"RightGUI"
+                }
+
+            ]
+        }
+    ]
+}

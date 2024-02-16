@@ -1,0 +1,12 @@
+sudo nano /usr/local/bin/restart-green-red-service
+
+#!/bin/bash
+sudo systemctl restart green-red.service
+
+~> lsusb
+Bus 001 Device 006: ID 8089:0003 SayoDevice SayoDevice O2L RGB
+
+sudo nano /etc/udev/rules.d/99-usb.rules
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="8089", ATTR{idProduct}=="0003", RUN+="/usr/local/bin/restart-green-red-service"
+
+sudo udevadm control --reload-rules

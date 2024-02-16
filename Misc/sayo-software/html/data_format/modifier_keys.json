@@ -1,0 +1,156 @@
+{
+    "version": "2.0",
+    "text": "modifier keys",
+    "type": "multiple_choice",
+    "default": 0,
+    "data": [
+        {
+            "_text": "QWERTY",
+            "member": [
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 1188,
+                    "site_y" : 11428,
+                    "code": 1,
+                    "_text":"Ctrl"
+                },
+                {
+                    "size_x" : 4175,
+                    "size_y" : 1800,
+                    "site_x" : 2140,
+                    "site_y" : 9523,
+                    "code": 2,
+                    "_text":"Shift"
+                },
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 5951,
+                    "site_y" : 11428,
+                    "code": 4,
+                    "_text":"Alt"
+                },
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 3569,
+                    "site_y" : 11428,
+                    "code": 8,
+                    "_text":"Win"
+                },
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 27382,
+                    "site_y" : 11428,
+                    "code": 16,
+                    "_text":"_Ctrl"
+                },
+                {
+                    "size_x" : 5125,
+                    "size_y" : 1800,
+                    "site_x" : 25953,
+                    "site_y" : 9523,
+                    "code": 32,
+                    "_text":"_Shift"
+                },
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 20238,
+                    "site_y" : 11428,
+                    "code": 64,
+                    "_text":"_Alt"
+                },
+                {
+                    "size_x" : 2275,
+                    "size_y" : 1800,
+                    "site_x" : 25001,
+                    "site_y" : 11428,
+                    "code": 128,
+                    "_text":"_Win"
+                }
+            ]
+        },
+        {
+            "_text": "Mac",
+            "member": [
+                {
+                    "size_x" : 1800,
+                    "size_y" : 1800,
+                    "site_x" : 3000,
+                    "site_y" : 10000,
+                    "code": 1,
+                    "content": [
+                        "",
+                        "control"
+                    ]
+                },
+                {
+                    "size_x" : 3800,
+                    "size_y" : 1800,
+                    "site_x" : 2000,
+                    "site_y" : 8000,
+                    "code": 2,
+                    "content": [
+                        "",
+                        "shift"
+                    ]
+                },
+                {
+                    "size_x" : 1800,
+                    "size_y" : 1800,
+                    "site_x" : 5000,
+                    "site_y" : 10000,
+                    "code": 4,
+                    "content": [
+                        "alt",
+                        "option"
+                    ]
+                },
+                {
+                    "size_x" : 2200,
+                    "size_y" : 1800,
+                    "site_x" : 7300,
+                    "site_y" : 10000,
+                    "code": 8,
+                    "content": [
+                        "",
+                        "command"
+                    ]
+                },
+                {
+                    "size_x" : 3800,
+                    "size_y" : 1800,
+                    "site_x" : 26000,
+                    "site_y" : 8000,
+                    "code": 32,
+                    "_text":"_Shift"
+                },
+                {
+                    "size_x" : 1800,
+                    "size_y" : 1800,
+                    "site_x" : 22000,
+                    "site_y" : 10000,
+                    "code": 64,
+                    "content": [
+                        "alt",
+                        "option"
+                    ]
+                },
+                {
+                    "size_x" : 2200,
+                    "size_y" : 1800,
+                    "site_x" : 19800,
+                    "site_y" : 10000,
+                    "code": 128,
+                    "content": [
+                        "",
+                        "command"
+                    ]
+                }
+            ]
+        }
+    ]
+}

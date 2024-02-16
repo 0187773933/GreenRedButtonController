@@ -1,0 +1,19 @@
+[Unit]
+Description=Green Red Service
+After=multi-user.target
+
+[Service]
+#ExecStart=/usr/bin/python3.10 green_red.py
+ExecStart=/home/morphs/WORKSPACE/GreenRedGo/bin/linux/arm64/gr
+Restart=always
+User=morphs
+Group=morphs
+Environment=DISPLAY=:0
+WorkingDirectory=/home/morphs/
+StandardOutput=inherit
+StandardError=inherit
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target

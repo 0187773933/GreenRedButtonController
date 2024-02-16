@@ -1,0 +1,263 @@
+    1  ls
+    2  sudo hostname endtableone
+    3  logout
+    4  mpc
+    5  mpd
+    6  sudo chmod 644 /etc/mpd.conf
+    7  mpd
+    8  sudo mpd
+    9  aplay -l
+   10  sudo aplay -l
+   11  nano /etc/mdadm/
+   12  nano /etc/mpd.conf
+   13  cd /var/lib/mpd/music
+   14  ls
+   15  sudo mpc
+   16  sudo mpc shuflle on
+   17  sudo mpc shuffle on
+   18  sudo mpc shuffle
+   19  sudo mpc random on
+   20  wormhole receive 315-random-abc15
+   21  cd ~/TMP2/
+   22  wormhole receive 315-random-abc15
+   23  wormhole receive 384-random-abc84
+   24  unzip NowPlaying1.zip
+   25  sudo mv NowPlaying1 /var/lib/mpd/music/
+   26  sudo chown -R mpd:mpd /var/lib/mpd/
+   27  sudo chown -R mpd:root /var/lib/mpd/
+   28  mpc update
+   29  mpc ls NowPlaying1
+   30  mpc ls NowPlaying1 | mpc add
+   31  mpc random on
+   32  mpc play
+   33  pactl set-sink-volume @DEFAULT_SINK@ 100%
+   34  sudo apt install pulseaudio-utils
+   35  pactl set-sink-volume @DEFAULT_SINK@ 100%
+   36  sudo pactl set-sink-volume @DEFAULT_SINK@ 100%
+   37  amixer set Master 100%
+   38  sudo amixer set Master 100%
+   39  cat /proc/asound/cards
+   40  amixer -c 1 sset 'Headphones' 100%
+   41  amixer -c 0 sset 'Headphones' 100%
+   42  pulseaudio --start
+   43  sudo apt-get install pulseaudio
+   44  pulseaudio --start
+   45  pactl set-sink-volume @DEFAULT_SINK@ 50%
+   46  pactl set-sink-volume @DEFAULT_SINK@ 100%
+   47  amixer set Master 50%
+   48  sudo amixer set Master 50%
+   49  pactl set-sink-volume @DEFAULT_SINK@ 0%
+   50  pactl list sinks
+   51  mpc previous
+   52  mpc prev
+   53  mpc current
+   54  history
+   55  cd /var/lib/mpd/music/
+   56  ls
+   57  cd NowPlaying1/
+   58  ls -lah
+   59  cd NowPlaying1/
+   60  sudo cd NowPlaying1/
+   61  sudo su
+   62  mpc next
+   63  mpc current
+   64  mpc next
+   65  mpc volume
+   66  amixer sget Master
+   67  sudo amixer sget Master
+   68  amixer scontrols
+   69  cat /proc/asound/cards
+   70  lsmod | grep snd
+   71  groups $USER
+   72  sudo groupadd morphs audio
+   73  sudo groupadd audio
+   74  sudo usermod -aG audio $USER
+   75  cat /proc/asound/cards
+   76  amixer scontrols
+   77  sudo amixer scontrols
+   78  sudo alsa force-reload
+   79  amixer sget 'Headphone'
+   80  amixer -c 0 sget 'Headphone'
+   81  sudo reboot
+   82  amixer -c 0 sget 'Headphone'
+   83  sudo amixer set Master 100%
+   84  sudo amixer set 'Headphone' 100%
+   85  sudo nano /usr/local/bin/nowPlaying1
+   86  sudo chmod +x /usr/local/bin/nowPlaying1
+   87  nowPlaying1
+   88  mpd
+   89  sudo mpd
+   90  mpc current
+   91  sudo amixer set 'Headphone' 80%
+   92  sudo amixer set 'Headphone' 90%
+   93  sudo amixer set 'Headphone' 950%
+   94  sudo amixer set 'Headphone' 95%
+   95  sudo amixer set 'Headphone' 96%
+   96  sudo nano /usr/local/bin/nowPlaying1
+   97  nowPlaying1
+   98  sudo nano /usr/local/bin/nowPlaying1
+   99  nowPlaying1
+  100  sudo nano /usr/local/bin/nowPlaying1
+  101  nowPlaying1
+  102  sudo nano /usr/local/bin/nowPlaying1
+  103  nowPlaying1
+  104  sudo nano /usr/local/bin/nowPlaying1
+  105  sudo amixer set 'Headphone' 60%
+  106  sudo amixer set 'Headphone' 50%
+  107  sudo nano /usr/local/bin/nowPlaying1
+  108  sudo amixer set 'Headphone' 70%
+  109  sudo nano /usr/local/bin/nowPlaying1
+  110  sudo amixer set 'Headphone' 80%
+  111  sudo amixer set 'Headphone' 75%
+  112  sudo amixer set 'Headphone' 78%
+  113  sudo amixer set 'Headphone' 70%
+  114  sudo amixer set 'Headphone' 74%
+  115  sudo amixer set 'Headphone' 73%
+  116  sudo nano /usr/local/bin/nowPlaying1
+  117  mpc next
+  118  ls
+  119  cd TMP2/
+  120  wormhole receive 326-random-abc26
+  121  chmod +x Sayo_CLI_Linux
+  122  ./Sayo_CLI_Linux
+  123  file Sayo_CLI_Linux
+  124  sudo apt-get install qemu-user-static
+  125  qemu-x86_64-static ./Sayo_CLI_Linux
+  126  ls
+  127  sudo apt-get install debootstrap qemu-user-static
+  128  sudo debootstrap --arch=amd64 --foreign buster ~/chroot_x86_64 http://deb.debian.org/debian/
+  129  sudo cp /usr/bin/qemu-x86_64-static ~/chroot_x86_64/usr/bin/
+  130  sudo chroot ~/chroot_x86_64 /usr/bin/qemu-x86_64-static /bin/bash -c "/debootstrap/debootstrap --second-stage"
+  131  sudo chroot ~/chroot_x86_64 /usr/bin/qemu-x86_64-static /bin/bash
+  132  sudo cp Sayo_CLI_Linux ~/chroot_x86_64/root/
+  133  sudo chroot ~/chroot_x86_64 /usr/bin/qemu-x86_64-static /bin/bash
+  134  wormhole receive 346-random-abc46
+  135  unzip NowPlaying
+  136  unzip NowPlaying2.zip
+  137  history
+  138  sudo mv NowPlaying2 /var/lib/mpd/music/
+  139  sudo cp /usr/local/bin/nowPlaying1 /usr/local/bin/nowPlaying2
+  140  sudo nano /usr/local/bin/nowPlaying2
+  141  nowPlaying2
+  142  cd /var/lib/mpd/music/
+  143  ls
+  144  cd NowPlaying2
+  145  ls
+  146  ls2
+  147  ls -lah
+  148  sudo chown -R mpd:root /var/lib/mpd/
+  149  nowPlaying2
+  150  mpc ls NowPlaying2
+  151  mpc ls NowPlaying1
+  152  ls -lah
+  153  mpc reload
+  154  mpd reload
+  155  mpc update
+  156  mpc ls NowPlaying1
+  157  nowPlaying2
+  158  mpc pause
+  159  sudo apt install xbindkeys xbindkeys-config
+  160  xbindkeys --defaults > $HOME/.xbindkeysrc
+  161  nano ~/.xbindkeysrc
+  162  sudo cp /usr/local/bin/nowPlaying2 /usr/local/bin/playAll
+  163  sudo nano /usr/local/bin/playAll
+  164  killall xbindkeys
+  165  xbindkeys
+  166  sudo showkey -k
+  167  sudo nano /usr/local/bin/playAll
+  168  nano ~/.xbindkeysrc
+  169  killall xbindkeys && xbindkeys
+  170  ps aux | grep xbindkeys
+  171  xbindkeys
+  172  xbindkeys -n -v
+  173  echo $DISPLAY
+  174  export DISPLAY=:0.0
+  175  xbindkeys
+  176  xbindkeys -n -v
+  177  exit
+  178  xbindkeys
+  179  xbindkeys -n -v
+  180  export DISPLAY=:0.0
+  181  xbindkeys -n -v
+  182  sudo apt install xserver-xorg
+  183  python3 -m pip install evdev
+  184  nano test.py
+  185  python3 test.py
+  186  ls -lah /dev/in$\pu{from evdev import InputDevice, categorize, ecodes, KeyEvent
+  187  # Usually keyboards are on /dev/input/event0 or /dev/input/event1
+  188  # You can check which one is the keyboard by using `evtest`
+  189  dev = InputDevice('/dev/input/eventX')  # replace X with the correct number
+  190  print(f"Listening on device {dev.name}...")
+  191  for event in dev.read_loop():
+  192  ls -lah /dev/input
+  193  ls -lah /dev/input/by-id/
+  194  nano test.py
+  195  python3 test.py
+  196  sudo python3 test.py
+  197  sudo usermod -aG input morphs
+  198  python3 test.py
+  199  logout
+  200  ls
+  201  history
+  202  cat history > history_1.txt
+  203  echo history > history_1.txt
+  204  history > history_1.txt
+  205  cat history_1.txt
+  206  ls
+  207  mv test.py green_red.py
+  208  pmc current
+  209  mpc current
+  210  mpc next
+  211  sudo nano /etc/systemd/system/green-red.service
+  212  which python3
+  213  sudo nano /etc/systemd/system/green-red.service
+  214  pwd
+  215  sudo systemctl daemon-reload
+  216  sudo systemctl enable /etc/systemd/system/green-red.service
+  217  sudo systemctl status /etc/systemd/system/green-red.service
+  218  sudo systemctl start /etc/systemd/system/green-red.service
+  219  sudo journalctl -u myscript.service
+  220  sudo journalctl -u green-red.service
+  221  sudo systemctl start green-red.service
+  222  sudo systemctl status green-red.service
+  223  ps aux | grep python
+  224  sudo nano /etc/systemd/system/green-red.service
+  225  sudo systemctl daemon-reload
+  226  sudo systemctl start green-red.service
+  227  sudo systemctl status green-red.service
+  228  ps aux | grep python
+  229  sudo systemctl stop green-red.service
+  230  sudo systemctl status green-red.service
+  231  ps aux | grep python
+  232  python3 green_red.py
+  233  nano green_red.py
+  234  python3 green_red.py
+  235  nano green_red.py
+  236  python3 green_red.py
+  237  nano green_red.py
+  238  cat green_red.py
+  239  rm green_red.py
+  240  nano gree_red.py
+  241  nano green_red.py
+  242  python3 green_red.py
+  243  nano green_red.py
+  244  python3 green_red.py
+  245  nano green_red.py
+  246  python3 green_red.py
+  247  nano green_red.py
+  248  python3 green_red.py
+  249  nano green_red.py
+  250  python3 green_red.py
+  251  nano green_red.py
+  252  python3 green_red.py
+  253  nano green_red.py
+  254  python3 green_red.py
+  255  nano green_red.py
+  256  mpc resume
+  257  python3 green_red.py
+  258  nano green_red.py
+  259  python3 green_red.py
+  260  history
+  261  sudo systemctl start green-red.service
+  262  sudo systemctl status green-red.service
+  263  history > history_2.txt

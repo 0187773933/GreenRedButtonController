@@ -1,0 +1,307 @@
+{
+    "version": "2.0",
+    "title": "std",
+    "uri": "/api/devices",
+    "vid":32905,
+    "pid":3,
+    "methods": [
+        "read",
+        "write",
+        "save"
+    ],
+    "files":[
+        "modifier_keys.json",
+        "general_keys.json",
+        "mu_keys.json",
+        "mouse_keys.json"
+    ],
+    "data": [
+        {
+            "type":"tab",
+            "text": "button",
+            "cmd": "buttons",
+            "cmd_code":6,
+            "format":null,
+            "mode":[
+                {
+                    "text":"keyboard",
+                    "code":0,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/default",
+                    "values":[
+                        {
+                            "text":"",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"tap and hold",
+                    "code":1,
+                    "minimum_version":76,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/tap_and_hold",
+                    "values":[
+                        {
+                            "text":"tap",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        },
+                        {
+                            "text":"hold",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"mouse",
+                    "code":2,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/mouse",
+                    "values":[
+                        {
+                            "text":"mouse key",
+                            "file":[
+                                "mouse_keys.json",
+                            ]
+                        },
+                        {
+                            "text":"cursor",
+                            "raw_data":[
+                                {
+                                    "type":"char",
+                                    "offset":0,
+                                    "min":-128,
+                                    "max":127
+                                },
+                                {
+                                    "type":"char",
+                                    "offset":0,
+                                    "min":-128,
+                                    "max":127
+                                }
+                            ]
+                        },
+                        {
+                            "text":"scroll",
+                            "raw_data":[
+                                {
+                                    "type":"char",
+                                    "min":-128,
+                                    "max":127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"2 shortcut keys",
+                    "code":4,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/2_shortcut_keys",
+                    "values":[
+                        {
+                            "text":"1",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                        {
+                            "text":"2",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"joystick button",
+                    "code":6,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/joystick_button",
+                    "values":[
+                        {
+                            "text":"1",
+                            "raw_choose":[
+                                {
+                                    "type":"unsigned char",
+                                    "text":["button ",""],
+                                    //是显示时的offset
+                                    "offset":1,
+                                    "min":0,
+                                    "max":63
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"one-key password",
+                    "code":8,
+                    "minimum_version":0,
+                    "maximum_version":75,
+                    "note_url":"https://manual.sayodevice.com/button/one-key_password",
+                    "values":[
+                        {
+                            "text":"number",
+                            "raw_choose":[
+                                {
+                                    "type":"unsigned char",
+                                    "text":["password ",""],
+                                    "offset":1,
+                                    "min":0,
+                                    //min 或 max位字符串的时候，数值为变量
+                                    "max":"key_count"
+                                }
+                            ]
+                        },
+                        {
+                            "text":"add enter key",
+                            //"enable":0 表示打勾的时候数值为0,否则为1；"enable":1的时候相反 
+                            "enable":0
+                        },
+                        {
+                            "text":"interval_time",
+                            "raw_data":[
+                                {
+                                    "type":"unsigned char",
+                                    "min":2,
+                                    "max":253
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"holding mode",
+                    "code":10,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/holding_mode",
+                    "values":[
+                        {
+                            "text":"",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"Multimedia control",
+                    "code":11,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/multimedia_control",
+                    "values":[
+                        {
+                            "text":"",
+                            "file":[
+                                "mu_keys.json"
+                            ]
+                        },
+                        {
+                            "text":"repeat",
+                            "raw_data":[
+                                {
+                                    "type":"unsigned char",
+                                    "min":0,
+                                    "max":253
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"general keys *4",
+                    "code":12,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/general_keys_4",
+                    "values":[
+                        {
+                            "text":"",
+                            "file":[
+                                "general_keys.json",
+                                "general_keys.json",
+                                "general_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"one-key password2",
+                    "code":13,
+                    "minimum_version":76,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/one-key_password2",
+                    "values":[
+                        {
+                            "text":"number",
+                            "raw_choose":[
+                                {
+                                    "type":"unsigned char",
+                                    "text":["password ",""],
+                                    "offset":1,
+                                    "min":0,
+                                    //min 或 max位字符串的时候，数值为变量
+                                    "max":"key_count"
+                                }
+                            ]
+                        },
+                        {
+                            "text":"",
+                            "file":[
+                                "general_keys.json"
+                            ]
+                        },
+                        {
+                            "text":"interval_time",
+                            "raw_data":[
+                                {
+                                    "type":"unsigned char",
+                                    "min":2,
+                                    "max":253
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text":"shortcut *3",
+                    "code":14,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/shortcut_3",
+                    "values":[
+                        {
+                            "text":"",
+                            "file":[
+                                "modifier_keys.json",
+                                "general_keys.json",
+                                "general_keys.json",
+                                "general_keys.json"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

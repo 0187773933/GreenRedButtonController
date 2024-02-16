@@ -1,0 +1,65 @@
+{
+    "version": "2.0",
+    "title": "std",
+    "uri": "/api/devices",
+    "vid":32905,
+    "pid":0,
+    "methods": [
+        "read",
+        "write",
+        "save"
+    ],
+    "files":[
+        "modifier_keys.json",
+        "general_keys.json",
+        "mouse_keys.json"
+
+    ],
+    "data": [
+        {
+            "type":"tab",
+            "text": "button",
+            "cmd": "buttons",
+            "cmd_code":6,
+            "format":null,
+            "mode":[
+                {
+                    "title":"default",
+                    "code":0,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/default",
+                    "values":[
+                        {
+                            "file":"modifier_keys.json"
+                        },
+                        {
+                            "file":"general_keys.json"
+                        }
+                    ]
+                },
+                {
+                    "title":"multikey",
+                    "code":1,
+                    "minimum_version":0,
+                    "maximum_version":32767,
+                    "note_url":"https://manual.sayodevice.com/button/multikey",
+                    "values":[
+                        {
+                            "file":"modifier_keys.json"
+                        },
+                        {
+                            "file":"general_keys.json"
+                        },
+                        {
+                            "file":"general_keys.json"
+                        },
+                        {
+                            "file":"general_keys.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

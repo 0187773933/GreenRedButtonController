@@ -1,0 +1,41 @@
+{
+    "version": "2.0",
+    "text": "mouse keys",
+    "type": "multiple_choice",
+    "default": 0,
+    "data": [
+        {
+            "_text": "",
+            "member": [
+                {
+                    "code": 1,
+                    "_text": "left key"
+                },
+                {
+                    "code": 2,
+                    "_text": "rigth key"
+                },
+                {
+                    "code": 4,
+                    "_text": "Middle key"
+                },
+                {
+                    "code": 8,
+                    "_text": "button 4"
+                },
+                {
+                    "code": 16,
+                    "_text": "button 5"
+                },
+                {
+                    "code": 32,
+                    "_text": "button 6"
+                },
+                {
+                    "code": 64,
+                    "_text": "button 7"
+                }
+            ]
+        }
+    ]
+}
